@@ -1,0 +1,26 @@
+.customProgress .ui-progressbar .ui-progressbar-label {
+	color: yellow;
+}
+
+:host {
+	::ng-deep {
+		.loading-container {
+			background: white !important;
+		}
+
+		.tableau-resultat {
+			th, td {
+				border: 1px solid #EEE !important;
+			}
+		}
+
+		.tableau-de-bord-container.surface-ground {
+			background: #f0f3ee !important;
+		}
+
+		#resultatParti {
+			margin-left: 15rem !important;
+			}
+	}
+}
+
